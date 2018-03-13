@@ -55,9 +55,12 @@
   background-color:expression((new Date()).getHours()%2?'red':'blue')
 }  
 ```  
-
+9、css放在head中，js放在body尾部，先呈现页面，再给用户提供操作  
 15、音视频资源播放的时候再加载，减少页面首次加载http请求的次数  
 >preload=auto  
 >preload=metadata 只把音视频资源的头部进行加载
+###关于页面的SEO优化技巧  
+1、杜绝404页面，错误引导  
+
 
 
